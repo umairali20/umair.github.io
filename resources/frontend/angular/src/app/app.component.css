@@ -94,3 +94,116 @@ p,
 .flex-1 .h2 {
   font-size: clamp(1.8rem, 2rem + 1vw, 3.5rem);
 }
+
+
+
+.rev-item img {
+  width: 35%;
+  border-radius: 50%;
+}
+
+.rev-items {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+
+  /* width: fit-content; */
+  /* animation: carouselAnim 50s infinite alternate linear; */
+}
+
+.rev-item {
+  /* display: flex; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* position: relative; */
+  width: 300px;
+  background: #fff;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 25px;
+  box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.rev-item p {
+  text-align: center;
+  padding: 1rem;
+}
+
+.rev-name {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .rev-items {
+    flex-direction: column;
+  }
+}
+
+
+/* @media only screen and (max-width: 768px) {
+  .items {
+    animation: carouselAnim 35s infinite alternate linear;
+  }
+
+  @keyframes carouselAnim {
+    from {
+      transform: translate(0, 0);
+    }
+
+    to {
+      transform: translate(calc(-100% + (2 * 300px)));
+    }
+  }
+} */
+
+/* @media (max-width: 625px) {
+  .items {
+    animation: carouselAnim 35s infinite alternate linear;
+  }
+
+  @keyframes carouselAnim {
+    from {
+      transform: translate(0, 0);
+    }
+
+    to {
+      transform: translate(calc(-100% + (1 * 300px)));
+    }
+  }
+} */
+
+
+/* @keyframes carouselAnim {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(calc(-100% + (5 * 300px)));
+  }
+} */
+
+/* .container .faders {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+.faders .right,
+.faders .left {
+  background: linear-gradient(to right,
+      rgba(245, 245, 245, 1) 0%,
+      rgba(255, 255, 255, 0) 100%);
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  z-index: 200;
+}
+
+.right {
+  right: 0;
+  background: linear-gradient(to left,
+      rgba(245, 245, 245, 1) 0%,
+      rgba(255, 255, 255, 0) 100%);
+} */
