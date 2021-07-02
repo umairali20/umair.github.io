@@ -1,0 +1,9 @@
+nav .navbar {
+  /* width: 100vw; */
+  /* overflow-x: hidden; */
+}
+
+.nav-pad-fix {
+  display: block;
+  margin-bottom: 3.53rem;
+}

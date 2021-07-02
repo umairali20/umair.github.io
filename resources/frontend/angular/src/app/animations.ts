@@ -35,3 +35,4 @@ trigger('slideInUp', [
         animate('700ms ' + subTitleDelay + 'ms ease'),
     ])
 ]);
+
